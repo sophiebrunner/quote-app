@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page-header {
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 247, 253);
+}
+
+#btn-new-quote {
+  border: none;
+  border-radius: 3px;
+  padding: 0.75em 1em;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(0, 102, 237);
+}
+
+main {
+  height: 100%;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  margin: 0;
+  max-width: 60ch;
+  font-weight: 300;
+}
+
+#quote-text {
+  margin-left: 0;
+  font-size: 3rem;
+}
+
+#quote-author {
+  font-size: 2rem;
+  color: gray;
+}

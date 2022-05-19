@@ -11,7 +11,7 @@ function toggleQuoteButton() {
       })
       .then((quote) => {
         quoteText.innerHTML = quote.data[0].quoteText;
-        quoteAuthor.innerHTML = quote.data[0].quoteAuthor;
+        quoteAuthor.innerHTML = "&mdash; " + quote.data[0].quoteAuthor;
       });
   }
 
